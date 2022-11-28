@@ -15,8 +15,8 @@ $ g++ RunLife.cpp -o life
 $ ./life
 ```
 
-NOTE!! 
-I have animated the terminal visualization by moving up the terminal cursor by grid height. Make sure the terminal window is large enough for the entire grid to print out otherwise the animation will not print out correctly.
+**_NOTE!! 
+I have animated the terminal visualization by moving up the terminal cursor by grid height. Make sure the terminal window is large enough for the entire grid(about 30 lines) to print out otherwise the animation will not print out correctly._**
 
 You may also write to a file by running the command below instead. However the output will not be animated.
 
