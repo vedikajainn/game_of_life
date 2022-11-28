@@ -35,9 +35,6 @@ class ConwayCell {
             // live cell, needs 2 or 3 living neighbors to live
                 alive = false; 
             }
-            if (alive) {
-                return 1;
-            }
-            return 0;
+            return alive;
         }
 };

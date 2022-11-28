@@ -33,7 +33,6 @@ $ ./life > output.txt
 * ConwayCell and Life - I have tried to limit the information sharing between main, the Life class and the Cell class. As such Life is the only class that should call the ConwayCells methods. The ConwayCells also do not have information of the whole Life grid. Instead they only have access to num_nieghbors which is enough to determine if the cell should be alive or dead.
 
 
-
 ## Inputs
 Currently main reads from the file input_glider_gun.txt but you can replace line 17 in RunLife.cpp with input_glider.txt to just get the glider animation.
 
