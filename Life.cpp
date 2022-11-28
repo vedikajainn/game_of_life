@@ -1,11 +1,5 @@
-#include <iostream> // cin, cout
 #include <vector>
-#include <stdlib.h>
-#include <sstream>
 #include <string>
-#include <cassert>
-#include <unordered_map>
-#include <stdio.h>
 #include <unistd.h>
 
 template <typename T>
@@ -101,7 +95,9 @@ class Life {
                 }
                 make_changes();                 
                 print_grid();
-                cout<<"\r\x1b[31A"<<flush;
+                // terminal visualization by reseeting cursor position to top of terminal
+                string output = "\r\x1b[" + to_string(grid.size() + 1) + "A";
+                cout<< output <<flush;
                 usleep(100000);
             }
         }
