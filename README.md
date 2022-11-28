@@ -26,6 +26,9 @@ $ ./life > output.txt
 
 ## Glider Gun Output
 
+https://user-images.githubusercontent.com/119287665/204223212-a4700a2e-abbb-4418-a4b3-127406740a78.mov
+
+
 ## Design Choices 
 
 * AbstractCell - Although I have not used the AbstractCell Class in this implementation, I have included it to demonstrate how I would extend it in the case we has multiple cell classes each with a different set of rules. I have also set up the grid in the Life class to allow it to be instantiated with whichever cell class we would like. Right now it uses ConwayCell.
