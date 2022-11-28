@@ -1,12 +1,8 @@
 #include <iostream> // cin, cout
-#include <vector>
 #include <stdlib.h>
 #include <sstream>
 #include <string>
-#include <cassert>
-#include <unordered_map>
 #include <stdio.h>
-#include <iostream>
 
 #include "ConwayCell.cpp"
 #include "Life.cpp"
@@ -15,7 +11,7 @@ using namespace std;
     
 int main() {
     freopen("input_glider_gun.txt","r",stdin); // All inputs from 'input_glider_gun.txt' file
-
+    
     // extract how large the grid should be
     string s;
     getline(cin, s);
